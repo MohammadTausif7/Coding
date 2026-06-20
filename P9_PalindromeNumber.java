@@ -11,11 +11,11 @@ class P9_PalindromeNumber {
         else
         {
             int num = 0;
-            int xcopy = x;
-            while (xcopy > 0) {
+            int xtemp = x;
+            while (xtemp > 0) {
                 num = num * 10;
-                num = num + (xcopy % 10);
-                xcopy = xcopy / 10;
+                num = num + (xtemp % 10);
+                xtemp = xtemp / 10;
             }
             return num == x;
         }
