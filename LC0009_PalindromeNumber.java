@@ -1,4 +1,4 @@
-class P9_PalindromeNumber {
+class LC0009_PalindromeNumber {
     public boolean isPalindrome(int x) {
         if (x < 0)
         {
