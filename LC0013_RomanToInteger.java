@@ -1,4 +1,4 @@
-class P13_RomanToInteger {
+class LC0013_RomanToInteger {
     public int romanToInt(String s) {
         int i = 0, num = 0;
 
